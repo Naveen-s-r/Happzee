@@ -1,0 +1,1732 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../../assets/css/font/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../../assets/css/font/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../../assets/css/font/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../../assets/css/font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(../../assets/css/font/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(../../assets/css/font/Roboto/Roboto-Black.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url(../../assets/css/font/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+  .head-fix
+  {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    left: 1px;
+    animation:smoothScroll 1s forwards;
+  }
+
+ @keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.navbar-dark .navbar-nav .active .nav-link{
+    color: #282828!important;
+}
+.fixed-top-1{
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    left: 1px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#755816!important;
+    font-size: 18px!important;
+    font-family: Roboto-Bold;
+}
+
+    .nav-color{
+        background-color: #ffb100;
+    }
+    .get-app{
+        background-color: white!important;
+        color: #755816!important;
+        font-weight: bold!important;
+        width: 120px;
+        font-size: 18px!important;
+        left: 1280px;
+        top: 30px;
+        border-radius: 101px!important;
+    }
+
+    #nav-at {
+        padding: 5px 65px 0px 0px;
+        
+    }
+    #nav-at-button a {
+        color: #755816;
+        padding: 5px 0px 5px 0px;
+        
+    }
+        .navbar-img{
+           position: relative;
+           right: 225px;
+    }
+    .navbar-options{
+        margin-left: 35%;
+    }
+    /*.top-navbar{
+        position: relative;
+        left: 100px;
+    }*/
+#gape{
+    margin-bottom: 90px;
+}
+#gape-long{
+    margin-bottom: 280px;
+}
+.gape-mini{
+    margin-bottom: 0px;
+}
+#gape-single{
+    margin-bottom: 30px;
+}
+.yoursmile{
+    color: #42361A;
+    font-family: Montserrat-ExtraBold;
+    font-weight: 900;
+    font-size: 135px;
+    padding: 0px 0px 0px 0px;
+  }
+  .matters{
+    color: #FEFEFE;
+    font-family: Roboto-Black;
+    -webkit-text-stroke: 3px #42361a;
+    font-style: normal; 
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 141px;
+    letter-spacing: 2px;
+    padding: 0px 0px 0px 0px;
+  }
+
+.section-2 img{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+    opacity:5;
+    filter: blur(2px);
+    background-color:#2c2a26;
+}
+.section-about h2{
+    font-size: 28px;
+    color: #4F4633;
+    font-family:Roboto-Medium;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+.section-video{
+   background-color:#2c2a26;
+}
+.head-3{
+    margin-top: 0px;
+    position: relative;
+    bottom: 350px;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto-bold';
+    background:unset;
+    overflow: hidden;
+    color: #D89500;
+    opacity: unset;
+    filter: blur(0px);
+}
+.section-2 i{
+    padding-bottom:0px;
+    position: relative;
+    bottom: 350px;
+    font-size: 50px;
+    overflow: hidden;
+    color:  rgba(255, 255, 255, 0.55)!important;
+    filter: blur(0px);
+    opacity: unset;
+}
+.navbar-nav > li {
+    font-weight: bold;
+    color: black;
+    float: right;
+    position: relative;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: white!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.section-3{
+    padding: 30px 0px;
+    background-color: #ffb100;
+    color: black;
+}
+.blog h3{
+    padding: 0px 40px;
+    color: #D89500;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;       
+}
+.blog p{
+    color:#cd9925;
+    font-size:18px;
+    letter-spacing: 0.03em;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+}
+.p1{
+    letter-spacing: 0.03em;
+    padding: 0px 60px;
+}
+.p2{
+    letter-spacing: 0.03em;
+    padding: 0px 50px;
+}
+.p3{
+    letter-spacing: 0.03em;
+    padding: 0px 53px;
+}
+.p4{
+    letter-spacing: 0.03em;
+    padding: 0px 30px;
+}
+.p5{
+    letter-spacing: 0.03em;
+    padding: 0px 45px;
+}
+.p6{
+    letter-spacing: 0.03em;
+    padding: 0px 35px;
+}
+.p7{
+    letter-spacing: 0.03em;
+    padding: 0px 20px;
+}
+.p8{
+    letter-spacing: 0.03em;
+    padding: 0px 32px;
+}
+.p9{
+    letter-spacing: 0.03em;
+    padding: 0px 35px;
+}
+.blog-1 img{
+    margin-bottom: 30px;
+}
+.blog-1 h3{
+    margin-bottom: 25px;
+    font-size: 24px;
+    padding: 0px 40px;
+    letter-spacing: 1px;
+    font-family: Roboto-bold;
+    color: #996b06;
+    font-weight: bold;            
+}
+.blog-1 p{
+    letter-spacing: 0.03em;
+    color:#B78516;
+    font-size:20px;
+    font-family: Roboto-Regular;
+
+}
+
+.section-5{
+    padding: 70px 0px 50px 0px;
+    background-color: #ffb100;
+    color: black;
+}
+.section-5 img{
+    z-index: 1020;
+    margin-top: -585px;
+    filter: drop-shadow(8px 10px 10px black);
+}
+.playstore{
+    margin-top: 0px;
+    width: 269px;
+    height: 104px;
+    position: relative;
+    bottom: 105px;
+}
+
+.circle{
+    border-radius: 50%;
+    margin: 0.15em;
+    height: 30px;
+    font-size: 1em;
+    }
+    
+.fa-twitter{
+    background: #2c2a26;
+    color: #FFFFFF;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 8px;
+    }
+    .fa-facebook{
+    background: #2c2a26;
+    color: #FFFFFF;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 8px;
+    }
+    .fa-youtube{
+    background: #2c2a26;
+    color: #FFFFFF;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 8px;
+    }
+    .fa-linkedin{
+    background: #2c2a26;
+    color: #FFFFFF;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 8px;
+    }
+    .fw-bold{
+        color:#755816;
+        font-size: 24px;
+        font-family: Roboto-Bold;
+        letter-spacing: 0.04em;
+    }
+    .fw-bold-1{
+        color:#BC994C;
+        font-size: 14px;
+    }
+    .test a{
+        color: #735A22!important; 
+        text-align: left;
+        font-size: 18px;
+        font-family: Roboto-Regular;
+        letter-spacing: 0.04em;
+    }
+    .copy a{
+        color:#cd9925!important;
+    }
+    .copy {
+        color:#BC994C;
+        font-size: 14px;
+        font-family: Roboto-Light;
+        letter-spacing: 0.04em;
+    }
+
+    .img-1{
+        width:90%;
+    }
+ 
+    .section-5 h2{
+        font-size: 36px;
+        color: #454545;
+    }
+    .section-4 h2{
+        font-size: 28px;
+        color: #4F4633;
+        padding-bottom: 70px;
+        font-family: 'Roboto-Medium';
+        font-weight: 500;
+    }
+
+
+    /* About */
+
+    .about-content div{
+        color: #B9984D;
+        padding: 0px 56px;
+        margin-top: 70px;
+        letter-spacing: 1px;
+        font-size: 24px;
+        line-height: 35px;
+        margin-bottom: 50px;
+        font-family: Roboto-Regular;
+    }
+
+    .text-h2-1 h2 {
+        color: #d89500;
+        font-family: 'Roboto-Bold';
+        padding: 45px 0px 0px 50px;
+        position: relative;
+        left: 40px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: right;
+    }
+
+    .text-h2-2 h2{
+        color: #d89500;
+        font-family: 'Roboto-Bold';
+        padding: 230px 50px 0px 25px;
+        font-size: 39px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 35px;
+    }
+
+    .about-img img{
+        width: 100%;
+        position: relative;
+        left: 35px;
+    }
+
+
+    /* contact */ 
+
+    .send{
+        background-color: #ffb100!important;
+        border-radius: 139px!important;
+        font-family: 'Roboto-Bold';
+        letter-spacing: 1px;
+        width: 215px;
+        height: 58px;
+        color: white!important;
+        font-size: 24px!important;
+    }
+    .text-contact input {
+        border-radius:83px;
+        padding: 25px 0px 28px 35px;
+    }
+    .form-control {
+        width: 80%!important;
+    }
+    .text-contact textarea{
+        box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+        border-radius: 27px;
+        padding: 15px 0px 100px 35px;
+    }
+    .contact-head h2{
+        color: #223a7a;
+        font-size: 48px;
+        font-family: Roboto-Medium;
+        line-height: 56px;
+        font-weight: 500;
+    }
+    .contact-head p > small{
+        color: #848484;
+        font-family: Roboto-Regular;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    #gape-mini-contact{
+        margin-bottom: 0px;
+        margin-top: 80px;
+    }
+    #gape-mini-1{
+        margin-bottom: 0px;
+        margin-top: 80px;
+    }
+    #gape-mini-2{
+        margin-bottom: 60px;
+        margin-top: 0px;
+    }
+
+   
+    .contact-head p{
+        margin-bottom: 2rem;
+    }
+    .form-group {
+    margin-bottom: 1rem;
+    margin-bottom: 30px!important;
+}
+
+/* price */   /*background-image: url("../../assets/img/bg-img.png");*/
+
+    .header{
+        background-color: white;
+        color: #E5A424;
+        font-size: 24px;
+        font-family: 'Roboto-Medium';
+        line-height: 28px;
+    }
+
+    .get-app-pricing{
+        background-color: #ffb100!important;
+        font-family: Roboto-Bold;
+        font-size: 24px!important;
+        width: 444px;
+        height: 64px;
+        border-radius: 139px!important;
+        margin-top: 100px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        color: white!important;
+        font-weight: bold;
+        border: 1px solid white!important;
+        box-shadow: 0px 8px 7px 0px rgb(0 0 0 / 25%);
+    }
+
+    .tick{
+        font-size:20px;
+        color:#29d06c!important;
+    }
+    .stipped{
+        background-color: #F3F3F3;
+    }
+    .box{
+        border: 1px solid #E5A424;
+        box-sizing: border-box;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 0px;
+        box-shadow: 0px 8px 7px 0px rgb(0 0 0 / 25%);
+    }
+    .box-1{
+        border: 1px solid #E5A424;
+        box-sizing: border-box;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 3rem;
+        margin-top: 0px;
+        box-shadow: 0px 8px 7px 0px rgb(0 0 0 / 25%);
+    }
+    .at div{
+        padding: 17px 12px 15px 12px;
+        margin: auto;
+    }
+    .at-p div{
+        padding: 17px 12px 15px 12px;
+        margin: auto;
+    }
+    .at-month div{
+        padding: 7px 12px 16px 12px;
+        margin: auto;
+    }
+    .at-tick div{
+        padding: 17px 12px 14px 12px;
+        margin: auto;
+    }
+    .at-tick-1 div{
+        padding: 17px 12px 14px 12px;
+        margin: auto;
+    }
+    .at-1 div{
+        padding: 30px 12px 30px 12px;
+        margin: auto;
+    }
+    .at-2 div{
+        padding: 5px 35px 3px 35px;
+        margin: auto;
+    }
+    .at-cape div{
+        padding: 41px 12px 41px 12px;
+        margin: auto;
+    }
+    .at-footer div{
+        padding: 14px 12px 9px 12px;
+        margin: auto;
+        font-family: 'Roboto-Medium';
+        font-size: 24px;
+        line-height: 28px;
+        color: #30B3C5;
+        font-weight: 500;
+    }
+        .at-footer-1 div{
+        padding: 9px 12px 9px 12px;
+    }
+    .at-footer{
+        font-size: 24px;
+        font-family: 'Roboto-Medium';
+        line-height: 28px;
+        color: #30B3C5;
+        font-weight: 500;
+    }
+    .box-row{
+        position: relative;
+        bottom: 525px;
+    }
+    .heading{
+        padding: 14px 12px 18px 12px;
+        margin: auto;
+        font-family: 'Roboto-Medium';
+        letter-spacing: 1px;
+        color: #E5A424!important;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: bold;
+    }
+    .bg-img{
+        background-image: url("../../assets/img/bg-price.png");
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size:contain;
+        position: relative;
+        top: 123px;
+
+    }
+    fieldset{
+        background-color: #ffb100;
+        background-size: cover;
+    }
+legend{
+    position: relative;
+    bottom: 190px;
+    background-position: 100% 100%;
+}
+.img-p{
+    width: 80%;
+    position: relative;
+    left: 25px;
+}
+.get-the-app{
+    color: #454545;
+    font-family: Roboto-Bold;
+    font-size: 36px;
+    position: relative;
+    letter-spacing: 0.04em;
+    bottom: 130px;
+}
+
+    .click-options{
+        background-color: #ffb100!important;
+        border-radius: 50%;
+        width: 1%!important;
+        background-color: #6D5B31!important;
+        padding: 5px 0px;
+    }
+    /*.carousel-indicators .active {
+        opacity: 1;
+        padding: 6px 1px;
+        position: relative;
+        bottom: 2px;
+    }*/
+    
+/*    .navbar-nav .active::after {
+        position: absolute;
+        bottom: 0;
+        width: 57%;
+        right: 58px;
+        content: " ";
+        border-bottom: 3px solid black;
+    }*/
+.phone-1{
+    padding: 0px 0px 0px 0px!important;
+}
+.a-1{
+    font-family: Roboto-Regular;
+}
+
+.static{
+    color: #42361A;
+}
+.slider-3{
+    color: #FFC644;
+}
+.set{
+    position: relative;
+    bottom: 60px;
+}
+.pd-1{
+    padding-left: 75px!important;
+}
+
+/* video button */
+
+.modal-body {
+    padding: 0rem!important;
+    margin-top: 100px;
+}
+#iframevideo1 {
+    width: 100%;
+    height: 300px;
+}
+@media only screen and (max-width: 1440px)
+{
+    .form-control {
+        width: 100%!important;
+    }
+
+    }
+ @media only screen and (max-width: 1440px) and (min-width: 1024px) 
+ {
+    #gape-mini-1 {
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+    .bg-img {
+        top: 60px;
+    }
+    .click-options {
+        padding: 6px 3px;
+    }
+    
+}
+@media only screen and (max-width: 1440px) and (min-width: 1200px) 
+{
+    .text-h2-1 h2 {
+        color: #d89500;
+        padding: 45px 0px 0px 100px!important;
+        font-size: 35px!important;
+        font-weight: 700;
+        text-align: right;
+        line-height: 50px;
+    }
+    .text-h2-2 h2 {
+        font-size: 35px;
+        padding: 230px 65px 0px 25px;
+    }
+    .img-p {
+        left: 15px;
+    }
+    .navbar-nav .active::after {
+        position: absolute;
+        bottom: 0;
+        width: 60%!important;
+        right: 41px!important;
+        border-bottom: 3px solid black!important;
+    }
+    .text-right img {
+        float: left;
+        width: 84%;
+        margin-top: 280px;
+        margin-left: 100px;
+    }
+    #gape-long {
+        margin-bottom: 220px!important;
+    }
+    legend {
+        bottom: 110px!important;
+    }
+    .get-the-app {
+        bottom: 70px!important;
+    }
+    .playstore {
+        bottom: 57px!important;
+    }
+    .yoursmile{
+        font-size: 125px!important;
+    }
+    .matters{
+        font-size: 110px;
+        position: relative;
+        bottom: 20px;
+    }
+    .carousel-caption {
+        padding-bottom: 95px!important;
+    }
+    .emog{
+        width: 44%;
+        position: relative;
+        bottom: 0px;
+    }
+    .centered{
+        position: relative;
+        top: 55px;
+    }
+
+}
+@media only screen and (max-width: 1320px) and (min-width: 1200px) 
+{
+
+    }
+@media only screen and (max-width: 1199px) and (min-width: 1024px) 
+{
+
+    .emog{
+        bottom: 60px!important;
+    }
+    .yoursmile{
+        bottom: 5px!important;
+    }
+    .matters{
+        bottom: 30px!important;
+    }
+
+    }
+@media only screen and (max-width: 1200px) and (min-width: 1024px) 
+{
+    .text-h2-1 h2 {
+        color: #d89500;
+        padding: 15px 0px 0px 80px!important;
+        font-size: 35px!important;
+        font-weight: 700;
+        text-align: right;
+        line-height: 40px;
+    }
+    .text-h2-2 h2 {
+        font-size: 35px;
+        padding: 230px 65px 0px 25px;
+    }
+    .img-p {
+        width: 80%;
+        left: 13px;
+    }
+    .navbar-nav .active::after {
+        position: absolute;
+        bottom: 0;
+        width: 60%!important;
+        right: 43px!important;
+        border-bottom: 3px solid black!important;
+    }
+    .text-right img {
+        margin-left: 60px!important;
+        width: 88%!important;
+        margin-top: 260px!important;
+    }
+    #gape-long {
+        margin-bottom: 200px!important;
+    }
+    legend {
+        bottom: 110px!important;
+    }
+    .get-the-app {
+        bottom: 70px!important;
+    }
+    .playstore {
+        bottom: 57px!important;
+    }
+    .yoursmile{
+        position: relative;
+        bottom: 35px;
+        font-size: 108px!important;
+    }
+    .matters{
+        font-size: 104px;
+        position: relative;
+        bottom: 65px;
+        letter-spacing: 2px;
+    }
+    .carousel-caption {
+        padding-bottom: 20px!important;
+    }
+    .emog{
+        width: 45%;
+        position: relative;
+        bottom: 50px;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px) 
+{
+    .text-h2-2 h2 {
+        font-size: 35px;
+    }
+    .text-h2-1 h2 {
+        color: #d89500;
+        padding: 45px 0px 0px 65px!important;
+        font-size: 35px!important;
+        font-weight: 700;
+        text-align: right;
+        line-height: 40px;
+    }
+    #gape-mini-1 {
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+    .bg-img {
+        top: 60px;
+    }
+    .img-p {
+        width: 80%;
+        left: 13px;
+    }
+    .navbar-nav .active::after {
+        position: absolute;
+        bottom: 0;
+        width: 60%!important;
+        right: 43px!important;
+        border-bottom: 3px solid black!important;
+    }
+    .click-options {
+        padding: 5px 3px;
+    }
+    legend {
+        bottom: 110px!important;
+    }
+    .get-the-app {
+        bottom: 70px!important;
+    }
+    .playstore {
+        bottom: 57px!important;
+    }
+    
+    .text-right img {
+        width: 100%!important;
+        margin-top: 300px!important;
+        margin-left: 8px!important;
+    }
+    
+    #gape-long {
+        margin-bottom: 200px!important;
+    }
+
+    .yoursmile{
+        font-size: 100px!important;
+    }
+    .matters{
+        font-size: 95px;
+        position: relative;
+        bottom: 30px;
+        letter-spacing: 2px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 45%;
+        position: relative;
+        bottom: 60px;
+    }
+    .head-3 {
+        bottom: 300px!important;
+    }
+    .section-2 i {
+        bottom: 300px!important;
+    }
+
+}
+@media only screen and (max-width: 767px)
+{
+    .s-1{
+        margin-top: 50px;
+    }
+    .bg-img {
+        background: none!important;
+        top: 0px!important;
+    }
+    #gape-mini-1 {
+        margin-bottom: 0px!important; 
+        margin-top: 40px!important;
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) 
+{
+    .text-h2-1 h2 {
+        padding: 50px 0px 0px 25px!important;
+        line-height: 30px!important;
+    }
+    .box-row {
+        bottom: 555px!important;
+    }
+    .at-footer{
+        font-size: 22px!important;
+    }
+    .at-footer div{
+        padding: 15px 12px 15px 12px!important;
+        font-size: 20px!important;
+    }
+    .at div{
+        padding: 14px 12px 15px 12px!important;
+    }
+    .at-p div{
+        padding: 26px 12px 16px 24px!important;
+    }
+    .at-month div{
+        padding: 7px 12px 16px 12px!important;
+    }
+    .at-tick div{
+        padding: 9px 12px 6px 12px!important;
+    }
+    .at-tick-1 div{
+        padding: 9px 12px 10px 12px!important;
+    }
+    .at-1 div{
+        padding: 55px 12px 42px 12px!important;
+    }
+    .at-2 div{
+        padding: 14px 12px 7px 12px!important;
+        font-size: 15px!important;
+    }
+    .at-cape div{
+        padding: 60px 12px 57px 12px!important;
+    }
+} 
+@media only screen and (max-width: 767px) and (min-width: 600px) 
+{
+    .box-1 {
+        margin-left: 0rem!important;
+        margin-top: 2.50rem!important;
+    }
+    .box-row {
+        position: relative;
+        bottom: 125px!important;
+    }
+    .get-app-pricing {
+        width: 340px!important;
+        position: relative!important;
+        top: 800px!important;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) 
+{
+
+    #gape-mini-1 {
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+    .bg-img {
+        top: 60px;
+    }
+    .img-p {
+        width: 80%;
+        left: 11px;
+    }
+    /*.navbar-nav .active::after {
+        bottom: 4px;
+        width: 7%;
+        right: 447px;
+    }*/
+    .click-options {
+        padding: 6px 3px;
+    }
+    .text-right img {
+        width: 75%!important;
+        margin-top: 130px;
+        margin-left: 180px;
+    }
+    legend {
+        bottom: 110px!important;
+    }
+    .get-the-app {
+        bottom: 70px!important;
+    }
+    .playstore {
+        bottom: 57px!important;
+    }
+    .yoursmile{
+        font-size: 77px!important;
+    }
+    .matters{
+        font-size: 75px;
+        position: relative;
+        bottom: 30px;
+        letter-spacing: 2px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 42%;
+        position: relative;
+        bottom: 70px;
+    }
+    .text-h2-2 h2 {
+        color: #d89500;
+       padding: 170px 60px 0px 15px!important;
+        font-size: 30px!important;
+        font-weight: 700;
+        text-align: left;
+        line-height: 32px;
+    }
+    .text-h2-1 h2 {
+        color: #d89500;
+        padding: 50px 0px 0px 61px;
+        font-size: 30px!important;
+        font-weight: 700;
+        text-align: right;
+        line-height: 40px;
+    }
+    #gape-long {
+        margin-bottom: 200px!important;
+    }
+
+    .head-3 {
+        bottom: 230px!important;
+    }
+    .section-2 i {
+        bottom: 230px!important;
+    }
+
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) 
+{
+    .about-img img {
+        width: 100%;
+        position: relative;
+        left: 26px;
+    }
+    .text-h2-1 h2 {
+        color: #d89500;
+        padding: 18px 0px 0px 19px!important;
+        font-size: 30px!important;
+        font-weight: 700;
+        text-align: right;
+        line-height: 31px;
+    }
+    .text-h2-2 h2 {
+        color: #d89500;
+        padding: 100px 0px 0px 8px!important;
+        font-size: 30px!important;
+        font-weight: 700;
+        text-align: left;
+        line-height: 30px;
+    }
+    .img-p {
+        width: 80%;
+        left: 8px;
+    }
+    .click-options {
+        padding: 5px 4px;
+    }
+    legend {
+        bottom: 70px!important;
+    }
+    .get-the-app {
+        bottom: 40px!important;
+    }
+    .playstore {
+        bottom: 35px!important;
+    }
+    .yoursmile{
+        font-size: 63px!important;
+    }
+    .matters{
+        font-size: 60px;
+        position: relative;
+        bottom: 34px;
+        letter-spacing: 2px;
+    }
+    .centered{
+        position: relative;
+        top: 50px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 38%;
+        position: relative;
+        bottom: 30px;
+    }
+    .
+    #gape-long {
+        margin-bottom: 130px!important;
+    }
+    .head-3 {
+        bottom: 200px!important;
+    }
+    .section-2 i {
+        bottom: 200px!important;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 425px) 
+{
+    .about-img img {
+        width: 90%;
+        position: relative;
+        left: 35px;
+    }
+    .text-h2-1 h2 {
+        color: #d89500;
+        padding: 18px 0px 0px 19px!important;
+        font-size: 30px!important;
+        font-weight: 700;
+        position: unset;
+        text-align: right;
+        line-height: 31px;
+    }
+    .text-h2-2 h2 {
+        color: #d89500;
+        padding: 30px 0px 0px 8px!important;
+        font-size: 30px!important;
+        font-weight: 700;
+        text-align: left;
+        line-height: 30px;
+    }
+    .img-p {
+        width: 80%;
+        left: 8px;
+    }
+    .click-options {
+        padding: 6px 5px;
+    }
+   .yoursmile{
+        font-size: 40px!important;
+    }
+    .matters{
+        font-size: 40px;
+        position: relative;
+        bottom: 40px;
+        letter-spacing: 2px;
+    }
+    .centered{
+        position: relative;
+        top: 60px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 35%;
+        position: relative;
+        bottom: 40px;
+    }
+    .get-the-app {
+        bottom: 45px!important;
+    }
+    legend {
+        bottom: 60px!important;
+    }
+    .playstore {
+        bottom: 40px!important;
+    }
+
+    .box-1 {
+        margin-left: 0rem!important;
+        margin-top: 2.50rem!important;
+    }
+    .box-row {
+        bottom: 125px!important;
+        left: 65px!important;
+        width: 80%!important;
+    }
+    .get-app-pricing {
+        width: 340px!important;
+        position: relative!important;
+        top: 800px!important;
+    }
+
+    #gape-long {
+        margin-bottom: 130px!important;
+    }
+
+    .head-3 {
+        bottom: 150px!important;
+    }
+    .section-2 i {
+        bottom: 150px!important;
+    }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px) 
+{
+    .img-p {
+        width: 80%;
+        left: 5px;
+    }
+    .about-img img {
+        width: 80%;
+        position: relative;
+        left: 41px;
+    }
+    .click-options {
+        padding: 3px 3px;
+        position: relative;
+        top: 4px;
+    }
+    .get-the-app {
+        bottom: 28px!important;
+    }
+    legend {
+        bottom: 30px!important;
+    }
+    .playstore {
+        bottom: 25px!important;
+    }
+    .yoursmile{
+        font-size: 37px!important;
+    }
+    .matters{
+        font-size: 35px;
+        position: relative;
+        bottom: 55px;
+        letter-spacing: 2px;
+        -webkit-text-stroke: 2px #42361a!important;
+    }
+    .centered{
+        position: relative;
+        top: 100px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 40%;
+        position: relative;
+        bottom: 17px;
+    }
+    .box-1 {
+        margin-left: 0rem!important;
+        margin-top: 2.50rem!important;
+    }
+    .box-row {
+        bottom: 125px!important;
+        left: 55px!important;
+        width: 80%!important;
+    }
+
+    .text-h2-1 h2 {
+        padding: 30px 0px 0px 0px!important;
+        font-size: 25px!important;
+        font-weight: 700;
+        position: unset;
+        text-align: right;
+    }
+    .text-h2-2 h2 {
+        padding: 30px 0px 15px 0px!important;
+        font-size: 25px!important;
+        font-weight: 700;
+        text-align: left;
+        line-height: 32px;
+    }
+
+    #gape-long {
+        margin-bottom: 100px!important;
+    }
+    .head-3 {
+        bottom: 135px!important;
+    }
+    .section-2 i {
+        bottom: 140px!important;
+    }
+    .section-video {
+        height: 390px!important;
+    }
+}
+@media only screen and (max-width: 375px) and (min-width: 320px) 
+{
+    .about-img img {
+        width: 80%;
+        position: relative;
+        left: 36px;
+    }
+    .img-p {
+        width: 80%;
+        left: 4px;
+    }
+   /* .navbar-nav .active::after {
+        bottom: 5px;
+        width: 17%;
+        right: 155px;
+    }*/
+    .click-options {
+        padding: 3px 3px;
+        position: relative;
+        top: 8px;
+    }
+    .yoursmile{
+        font-size: 34px!important;
+        position: relative;
+        top: 5px;
+    }
+    .matters{
+        font-size: 31px;
+        position: relative;
+        bottom: 51px;
+        letter-spacing: 2px;
+        -webkit-text-stroke: 2px #42361a!important;
+    }
+    .centered{
+        position: relative;
+        top: 100px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 40%;
+        position: relative;
+        bottom: 13px;
+    }
+    .head-3 {
+        font-size: 30px!important;
+        bottom: 120px!important;
+    }
+    .section-video {
+        height: 358px!important;
+    }
+        .section-2 i {
+        bottom: 125px!important;
+    }
+
+    .get-the-app {
+        bottom: 18px!important;
+    }
+    legend {
+        bottom: 18px!important;
+    }
+    .playstore {
+        bottom: 25px!important;
+    }
+    .box-1 {
+        margin-left: 0rem!important;
+        margin-top: 2.50rem!important;
+    }
+    .box-row {
+        bottom: 125px!important;
+        left: 50px!important;
+        width: 80%!important;
+    }
+
+    .text-h2-1 h2 {
+        padding: 0px 0px 0px 0px!important;
+        font-size: 20px!important;
+        font-weight: 700;
+        position: unset;
+        text-align: right;
+    }
+    .text-h2-2 h2 {
+        padding: 30px 0px 15px 0px!important;
+        font-size: 20px!important;
+        font-weight: 700;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    #gape-long {
+        margin-bottom: 105px!important;
+    } 
+   
+}
+@media only screen and (max-width: 768px)
+{
+    .text-right img {
+        float: left;
+        width: 100%!important;
+        margin-top: 0px!important;
+        margin-left: 0px!important;
+    }
+}
+@media only screen and (max-width: 425px) 
+{
+    .playstore {
+        width: 230px!important;
+    }
+    .get-app-pricing {
+        width: 100%!important;
+        position: relative!important;
+        top: 800px!important;
+    }
+  
+}
+@media only screen and (min-width: 992px)
+{
+    .navbar-nav .active::after {
+        position: absolute;
+        bottom: 0;
+        width: 57%;
+        right: 58px;
+        content: " ";
+        border-bottom: 3px solid black;
+    }
+}
+@media only screen and (max-width:320px) 
+{
+    .img-p {
+        width: 80%;
+        left: 4px;
+        top: 7px;
+    }
+    /*.navbar-nav .active::after {
+        bottom: 5px;
+        width: 20%;
+        right: 130px;
+    }*/
+    .click-options {
+        padding: 3px 3px;
+        position: relative;
+        top: 12px;
+    }
+    .yoursmile{
+        font-size: 30px!important;
+    }
+    .matters{
+        font-size: 29px;
+        position: relative;
+        bottom: 53px;
+        letter-spacing: 2px;
+        -webkit-text-stroke: 2px #42361a!important;
+    }
+    .centered{
+        position: relative;
+        top: 110px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px!important;
+    }
+    .emog{
+        width: 40%;
+        position: relative;
+        bottom: 7px;
+    }
+    .head-3 {
+        font-size: 30px!important;
+        bottom: 125px!important;
+    }
+    .section-video {
+        height: 330px!important;
+    }
+    
+    .get-the-app {
+        bottom: 23px!important;
+    }
+    legend {
+        bottom: 30px!important;
+    }
+    .playstore {
+        bottom: 20px!important;
+    }
+    .box-1 {
+        margin-left: 0rem!important;
+        margin-top: 2.50rem!important;
+    }
+    .box-row {
+        bottom: 125px!important;
+        left: 45px!important;
+        width: 80%!important;
+    }
+
+    .text-h2-1 h2 {
+        padding: 0px 0px 0px 0px!important;
+        font-size: 20px!important;
+        font-weight: 700;
+        position: unset;
+        line-height: 28px;
+        text-align: right;
+    }
+    .text-h2-2 h2 {
+        padding: 10px 0px 20px 0px!important;
+        font-size: 20px!important;
+        font-weight: 700;
+        text-align: left;
+        line-height: 28px;
+    }
+    .about-img img {
+        width: 80%;
+        position: relative;
+        left: 30px;
+    }
+    #gape-long {
+        margin-bottom: 100px!important;
+    }
+    .section-2 i {
+        bottom: 130px!important;
+        font-size: 45px!important;
+    }
+
+}
+@media only screen and (max-width: 1440px)
+{
+    .navbar-options{
+        margin-left: 0%;
+    }
+    .navbar-img{
+       position: relative;
+       right: 0px!important;
+    }
+    #nav-at {
+        padding: 5px 45px 0px 0px!important;
+         font-family: roboto;
+    }
+    #nav-at-button a {
+        color: #755816!important;
+        padding: 5px 0px 5px 0px;
+         font-family: roboto;
+    }
+}
+@media only screen and (min-width: 1441px){
+    .contact-head p > small > span{
+        display: block;
+        margin-bottom: 5px;
+    }
+      .carousel-caption {
+        padding-bottom: 165px!important;
+    }
+    .send {
+        position: relative;
+        right: 150px;
+    }
+    .text-right img {
+        float: left;
+        width: 85%;
+        margin-top: 135px;
+        margin-left: 122px;
+    }
+    .text-contact textarea{
+        box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+        border-radius: 27px;
+        padding: 15px 0px 150px 35px;
+    }
+}
+@media only screen and (max-width: 991px)
+{
+
+    .fixed-top-1 {
+        position: fixed!important;
+        top: 82px!important;
+        right: 0!important;
+        padding-bottom: 15px!important;
+        background-color: #ffb100!important;
+        left: 0!important;
+        z-index: 1030!important;
+    }
+
+   #nav-at{
+        padding: 8px 0px 8px 0px!important;
+    }
+    #nav-at-button a{
+        color: #755816!important;
+        padding: 8px 0px 8px 0px!important;
+    }
+    .navbar-nav{
+        text-align: center!important;
+    }
+
+}
+a{
+    text-decoration:none!important;
+}
+body{
+    background-color:unset!important;
+}
+.fa3{
+    display: inline-block;
+    font-size: 35px!important;
+    position: relative;
+    top: 8px;
+    left: 1px;
+    text-rendering: auto;
+    color:#2c2a26!important; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-linkedin {
+    background: #2c2a26;
+    color: #FFFFFF;
+    width: 30px;
+    padding-left: 9px;
+    padding-top: 6px;
+    position: relative;
+    bottom: 1px;
+}
+@media only screen and (max-width: 991px)
+{
+.about-content div {
+    color: #B9984D;
+     padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    font-family: Roboto-Regular;
+}
+.blog-1 h3 {
+    margin-bottom: 25px;
+    font-size: 24px;
+     padding: 0px 0px; 
+    letter-spacing: 1px;
+    font-family: Roboto-bold;
+    color: #996b06;
+    font-weight: bold;
+}
+.p4 {
+    letter-spacing: 0.03em;
+    padding: 0px 0px;
+}
+.p5 {
+    letter-spacing: 0.03em;
+     padding: 0px 0px; 
+}
+.p6 {
+    letter-spacing: 0.03em;
+     padding: 0px 0px; 
+}
+.p7 {
+    letter-spacing: 0.03em;
+     padding: 0px 0px; 
+}
+.p8 {
+    letter-spacing: 0.03em;
+     padding: 0px 0px; 
+}
+.p9 {
+    letter-spacing: 0.03em;
+     padding: 0px 0px; 
+}
+}
+@media only screen and (min-width:1425px) and (max-width: 1600px)
+{
+    .navbar-options {
+    margin-left: 27%;
+}
+.navbar-img {
+    position: relative;
+    right: 126px;
+}
+}
+@media only screen and  (max-width:991px)
+{
+#gape-mini-contact {
+    margin-bottom: 0px;
+     margin-top: 0px; 
+}
+}
+
+
+
+
+.carousel-indicators li {
+    height: 0px;
+    margin-right: 0px;
+    
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px)
+{
+    .click-options {
+        padding: 4px 0px;
+    }
+
+}
+
+#round
+ {
+ cursor: pointer;
+ height: 8px;
+ width: 8px;
+ margin: 0 2px;
+ background-color: #6D5B31;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+ }
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+@media only screen and (max-width:575px)
+{
+    .carousel-indicators {
+        bottom: -15px;
+    }
+}
